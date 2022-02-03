@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #dce6e3;
+
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.flex-track {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+.flex-clearbutton {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  flex-direction: row-reverse;
+  /* width: ; */
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.flex-container h1 {
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  font-size: 50px;
+  font-weight: bolder;
+  width: 100%;
+  border-radius: 15px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: aliceblue;
+  height: 500px;
+  width: 1400px;
+  flex-direction: column;
+  position: static;
+  border-radius: 20px;
+}
+.flex-category {
+  display: flex;
+  justify-content: left;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  width: 500px;
+}
+.h5 {
+  display: flex;
+  justify-content: left;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  width: 500px;
+}
+.total-cal {
+  margin-left: 89px;
+  margin-top: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-meal-input {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column-reverse;
+  height: 50px;
+}
+.add-meal {
+  margin-top: 20px;
+}
+.flex-cal-input {
+  display: flex;
+  justify-content: left;
+
+  flex-direction: column-reverse;
+  height: 50px;
+  margin-left: 15px;
+}
+#item-name {
+  height: 50px;
+  width: 600px;
+  font-family: "Quicksand", sans-serif;
+}
+
+#item-calories {
+  height: 50px;
+  width: 600px;
+  font-family: "Quicksand", sans-serif;
+}
+.col {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.flex-total-calories {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  margin: 15px;
+  margin-left: 85px;
+  font-family: "Quicksand", sans-serif;
+}
+.flex-collection {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  /* margin: 0px 40px 0px 0px; */
+  margin-left: 100px;
+  font-family: "Quicksand", sans-serif;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 10px;
+}

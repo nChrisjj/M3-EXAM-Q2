@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calories Tracker</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper-blue">
+        <div class="flex-container">
+          <h1 class="brand-logo center">TRACK YOUR CALORIES!</h1>
+        </div>
+        <div class="flex-clearbutton"></div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <div class="flex-category">
+            <span class="card-title">Add a Meal and Calories</span>
+          </div>
+          <form class="col">
+            <div class="row">
+              <div class="flex-meal-input">
+                <input type="text" placeholder="Add Food" id="item-name" />
+                <label for="item-name">Meal</label>
+              </div>
+              <div class="flex-cal-input">
+                <input
+                  type="number"
+                  placeholder="Add Calories"
+                  id="item-calories"
+                />
+                <label for="item-calories">Calories</label>
+              </div>
+            </div>
+            <div class="add-meal">
+              <button class="btn add-btn blue darken-3">
+                <i class="fa fa-plus"></i> Add Meal
+              </div>
+              </button>
+              <div class="flex-meal">
+              <button class="btn update-btn orange">
+                <i class="fa fa-pencil-square-o"></i> Update Meal
+              </button>
+              <button class="btn delete-btn red">
+                <i class="fa fa-remove"></i> Delete Meal
+              </button>
+              <button class="btn back-btn grey pull-right">
+                <i class="fa fa-chevron-circle-left"></i> Back
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Calories count -->
+    <div class="total-cal">
+      <h3 class="center-align">
+        Total calories: <span id="total-calories">0</span>
+      </h3>
+      <!-- Item list -->
+      <ul id="item-list" class="collection"></ul>
+      </div>
+    <script src="app2.js"></script>
+  </body>
+</html>

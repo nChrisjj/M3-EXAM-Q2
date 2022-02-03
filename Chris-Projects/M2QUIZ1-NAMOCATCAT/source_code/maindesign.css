@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+body{
+    font-family: 'Tangerine', serif;
+    font-size: 50px;
+}
+
+.heading{
+    font-size: 145px;
+    text-align: center;
+}
+
+.headingreduced{
+    font-size:70px;
+    text-align: center;
+}
+
+.emptyspace{
+    margin-bottom: 100px;
+}
+
+.emptyspacereduced{
+    margin-bottom: 80px;
+}
+
+.navheader{
+    display: flex;
+    background-color: rgb(236, 232, 232);
+    margin: 0;
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+.navlistitem{
+    list-style: none;
+    margin: 2rem;
+}
+
+.navlistitem a{
+    text-decoration: none;
+    text-emphasis: none;
+    color: black;
+}
+
+.flex-container{
+    overflow: hidden;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #2e0303;
+    color: #ffffff;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo{
+    position: absolute;
+    display: flex;
+    size: 50px;
+}
+
+.quotecard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 1;
+    border-radius: 10px;
+    flex-shrink: 2;
+    cursor: pointer;
+}
+
+.quotecardtext{
+    display: flex;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    <head>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <style>
+      #loading,
+      #results {
+        display: none;
+      }
+      #loading {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+            <h1>Calorie Calculator</h1>
+            <div id="outerbox">
+              <h3> To calculate your daily calorie intake input your: </h3>
+                   
+        <div id="box"> 
+          <p class="innertext">
+            <form id="calorie-form">
+              <div>
+                <label for="age" class="col-sm-2 col-form-label">Age</label>
+                <div class="col-sm-10">
+                  <input
+                    type="number"
+                    class="form"
+                    id="age"
+                  />
+                  <div>
+                    &nbsp;
+                  </div>
+                  <legend>Gender</legend>
+                  <div id="form-radio">
+                    <div
+                      class="custom-control custom-radio custom-control-inline"
+                    >
+                      <input
+                        type="radio"
+                        id="male"
+                        name="customRadioInline1"
+                        class="custom-control-input"
+                        checked="checked"
+                      />
+                      <label class="custom-control-label" for="male"
+                        >Male</label
+                      >
+                    </div>
+                    <input
+                    type="radio"
+                    id="female"
+                    name="customRadioInline1"
+                    class="custom-control-input"
+                    checked="checked"
+                  />
+                  <label class="custom-control-label" for="female"
+                    >Female</label
+                  >
+                <div>
+                  &nbsp;
+                </div>
+                <label for="weight"
+                  >Weight</label>
+                <div>
+                  <input
+                    type="number"
+                    class="form-text"
+                    id="weight"
+                    placeholder="In kg"
+              </div>
+              <div>
+                &nbsp;
+              </div>
+              <div>
+                <label for="height" 
+                  >Height</label>
+                <div>
+                  <input
+                    type="number"
+                    class="form-text"
+                    id="height"
+                    placeholder="In cm"
+                </div>
+                <div>
+                  &nbsp;
+                </div>
+              <div>
+                <label for="activity"
+                >Activity</label>
+                <select class="activity" id="list">
+                  <option selected value="1">
+                    Sedentary 
+                  </option>
+                  <option value="2">
+                    Lightly active 
+                  </option>
+                  <option value="3">
+                    Moderately active 
+                  </option>
+                  <option value="4">
+                    Very active 
+                  </option>
+                </select>
+              </div>
+              <div>
+                &nbsp;
+              </div>
+              <div class="submit">
+                <input
+                  type="submit"
+                  value="Calculate"
+                  class="submit"
+                />
+              </div>
+            </form>
+            <div>
+              &nbsp;
+            </div>
+            <div id="loading">
+              <label for="loading" 
+                  >Loading. . .</label>
+            </div>
+            <div>
+              &nbsp;
+            </div>
+            <div id="results" class="pt-4">
+              <h5>Total Calories</h5>
+              <div class="form-group">
+                <div class="input-group">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="total-calories"
+                    disabled
+                  />
+                </div>
+              </div>
+            <script src="app.js"></script>
+          </body>
+        </html>
